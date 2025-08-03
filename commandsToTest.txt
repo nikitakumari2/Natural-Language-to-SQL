@@ -1,0 +1,8 @@
+python main.py --question "How many students got an A grade?" --compare --models "gpt-3.5-turbo,gpt-4,mixtral-8x7b"
+
+python main.py --question "How many students got an A grade?" --model gpt-3.5-turbo mixtral-8x7b
+
+python main.py --question "How many students got an A grade?" --model mixtral-8x7b
+
+python main.py --question "How many students got an A grade?" --model llama2
+
